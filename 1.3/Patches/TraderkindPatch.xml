@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- Traderkind Patches-->
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Cooking Expanded - Sushi</li>
+    </mods>
+    <nomatch Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/TraderKindDef[defName = "RF_Visitor_Fishmonger"]/stockGenerators</xpath>
+          <value>
+            <li Class="StockGenerator_SingleDef">
+              <thingDef>RF_SoySauce</thingDef>
+              <countRange>0~12</countRange>
+            </li>
+            <li Class="StockGenerator_SingleDef">
+              <thingDef>RF_WasabiPaste</thingDef>
+              <countRange>0~12</countRange>
+            </li>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/TraderKindDef[defName = "RF_Caravan_Fishmonger"]/stockGenerators</xpath>
+          <value>
+            <li Class="StockGenerator_SingleDef">
+              <thingDef>RF_SoySauce</thingDef>
+              <countRange>20~150</countRange>
+            </li>
+            <li Class="StockGenerator_SingleDef">
+              <thingDef>RF_WasabiPaste</thingDef>
+              <countRange>20~150</countRange>
+            </li>
+          </value>
+        </li>
+        <!-- Base -->
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/TraderKindDef[defName = "Base_Neolithic_Standard" or defName = "Base_Outlander_Standard"]/stockGenerators</xpath>
+          <value>
+            <li Class="StockGenerator_SingleDef">
+              <thingDef>RF_SoySauce</thingDef>
+              <countRange>-100~300</countRange>
+            </li>
+            <li Class="StockGenerator_SingleDef">
+              <thingDef>RF_WasabiPaste</thingDef>
+              <countRange>-100~300</countRange>
+            </li>
+          </value>
+        </li>
+        <!-- Caravan -->
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/TraderKindDef[defName = "Caravan_Neolithic_BulkGoods" or defName = "Caravan_Outlander_BulkGoods"]/stockGenerators</xpath>
+          <value>
+            <li Class="StockGenerator_SingleDef">
+              <thingDef>RF_SoySauce</thingDef>
+              <countRange>-100~150</countRange>
+            </li>
+            <li Class="StockGenerator_SingleDef">
+              <thingDef>RF_WasabiPaste</thingDef>
+              <countRange>-100~150</countRange>
+            </li>
+          </value>
+        </li>
+        <!-- Orbital -->
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/TraderKindDef[defName = "Orbital_BulkGoods"]/stockGenerators</xpath>
+          <value>
+            <li Class="StockGenerator_SingleDef">
+              <thingDef>RF_SoySauce</thingDef>
+              <countRange>-80~500</countRange>
+            </li>
+            <li Class="StockGenerator_SingleDef">
+              <thingDef>RF_WasabiPaste</thingDef>
+              <countRange>-80~500</countRange>
+            </li>
+          </value>
+        </li>
+      </operations>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Cooking Expanded - Sushi</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/TraderKindDef[defName = "RF_Visitor_Fishmonger"]/stockGenerators</xpath>
+          <value>
+            <li Class="StockGenerator_SingleDef">
+              <thingDef>VCE_SoySauce</thingDef>
+              <countRange>0~12</countRange>
+            </li>
+            <li Class="StockGenerator_SingleDef">
+              <thingDef>VCE_WasabiPaste</thingDef>
+              <countRange>0~12</countRange>
+            </li>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/TraderKindDef[defName = "RF_Caravan_Fishmonger"]/stockGenerators</xpath>
+          <value>
+            <li Class="StockGenerator_SingleDef">
+              <thingDef>VCE_SoySauce</thingDef>
+              <countRange>20~150</countRange>
+            </li>
+            <li Class="StockGenerator_SingleDef">
+              <thingDef>VCE_WasabiPaste</thingDef>
+              <countRange>20~150</countRange>
+            </li>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

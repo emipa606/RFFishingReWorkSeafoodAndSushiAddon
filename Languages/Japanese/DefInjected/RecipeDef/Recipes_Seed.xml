@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <ExtractSeed_RF_Soybean.label>大豆の種を抽出</ExtractSeed_RF_Soybean.label>
+  <ExtractSeed_RF_Soybean.description>大豆から種子を抽出します。</ExtractSeed_RF_Soybean.description>
+  <ExtractSeed_RF_Soybean.jobString>種子を抽出中</ExtractSeed_RF_Soybean.jobString>
+  <ExtractSeed_RF_Wasabi.label>ワサビの種を抽出</ExtractSeed_RF_Wasabi.label>
+  <ExtractSeed_RF_Wasabi.description>ワサビから種子を抽出します。</ExtractSeed_RF_Wasabi.description>
+  <ExtractSeed_RF_Wasabi.jobString>種子を抽出中</ExtractSeed_RF_Wasabi.jobString>
+</LanguageData>

@@ -1,0 +1,4 @@
+# Changelog for RFFishingReWorkSeafoodAndSushiAddon
+
+1.4.0 - First publish
+

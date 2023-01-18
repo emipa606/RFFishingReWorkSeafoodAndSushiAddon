@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RF_MakeSoySauce.label>寿司醤油を作る</RF_MakeSoySauce.label>
+  <RF_MakeSoySauce.description>本来,醤油は大豆,小麦,米などの穀物を塩水に混ぜて蒸し発酵させて熟成させるものですが,ここではすぐに醤油を作ることができます. ただし準備には時間がかかります.</RF_MakeSoySauce.description>
+  <RF_MakeSoySauce.jobString>寿司醤油を準備中</RF_MakeSoySauce.jobString>
+  <RF_MakeSushiWasabi.label>寿司用ワサビを作る</RF_MakeSushiWasabi.label>
+  <RF_MakeSushiWasabi.description>生ワサビから寿司用ワサビを作ります。</RF_MakeSushiWasabi.description>
+  <RF_MakeSushiWasabi.jobString>寿司用ワサビを準備中</RF_MakeSushiWasabi.jobString>
+</LanguageData>

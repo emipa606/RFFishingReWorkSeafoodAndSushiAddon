@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RF_Soybean.label>大豆</RF_Soybean.label>
+  <RF_Soybean.description>生の大豆.寿司醤油の材料です.料理の材料としても使えます.</RF_Soybean.description>
+  <RF_Wasabi.label>ワサビ</RF_Wasabi.label>
+  <RF_Wasabi.description>ワサビは日本原産のアブラナ科の植物です.渓流や沼地に生え,春に白い小花を咲かせます.根茎や葉は食用になりますが,強い辛味があるので薬味や調味料として使われます.\n肥沃度が低い地面では育てらません.</RF_Wasabi.description>
+  <RF_RawSoybean.label>大豆(生)</RF_RawSoybean.label>
+  <RF_RawSoybean.description>生の大豆.寿司醤油の材料です.料理の材料としても使えます.</RF_RawSoybean.description>
+  <RF_RawWasabi.label>ワサビ(生)</RF_RawWasabi.label>
+  <RF_RawWasabi.description>寿司用ワサビの原料です.薬味や調味料として使用されます.そのまま食べるのはお勧めできません.</RF_RawWasabi.description>
+</LanguageData>

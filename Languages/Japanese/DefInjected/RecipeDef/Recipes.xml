@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <CookMealSushiSquid.label>イカの握り寿司</CookMealSushiSquid.label>
+  <CookMealSushiSquid.description>イカの切り身を使った美味しいにぎり寿司を作ります. 握り寿司を作るには,ネタ(魚の身),シャリ(米),醤油,ワサビが必要です.</CookMealSushiSquid.description>
+  <CookMealSushiSquid.jobString>握り寿司を調理中</CookMealSushiSquid.jobString>
+  <CookMealSushiSalmon.label>サーモンの握り寿司</CookMealSushiSalmon.label>
+  <CookMealSushiSalmon.description>サーモンの身を使った美味しいにぎり寿司を作ります. 握り寿司を作るには,ネタ(魚の身),シャリ(米),醤油,ワサビが必要です.</CookMealSushiSalmon.description>
+  <CookMealSushiSalmon.jobString>握り寿司を調理中</CookMealSushiSalmon.jobString>
+  <CookMealSushiGunkan.label>イクラの軍艦巻き</CookMealSushiGunkan.label>
+  <CookMealSushiGunkan.description>イクラを使った美味しい軍艦巻きを作ります. 握り寿司を作るには,ネタ(魚の身),シャリ(米),醤油,ワサビが必要です.（通常,軍艦巻にはワサビを必要としません）</CookMealSushiGunkan.description>
+  <CookMealSushiGunkan.jobString>軍艦巻きを調理中</CookMealSushiGunkan.jobString>
+  <CookMealSushiMaguro.label>マグロの握り寿司</CookMealSushiMaguro.label>
+  <CookMealSushiMaguro.description>マグロの身を使った美味しいにぎり寿司を作ります. 握り寿司を作るには,ネタ(魚の身),シャリ(米),醤油,ワサビが必要です.</CookMealSushiMaguro.description>
+  <CookMealSushiMaguro.jobString>握り寿司を調理中</CookMealSushiMaguro.jobString>
+  <CookMealSushiOctopus.label>タコの握り寿司</CookMealSushiOctopus.label>
+  <CookMealSushiOctopus.description>タコの身を使った美味しいにぎり寿司を作ります. 握り寿司を作るには,ネタ(魚の身),シャリ(米),醤油,ワサビが必要です.</CookMealSushiOctopus.description>
+  <CookMealSushiOctopus.jobString>握り寿司を調理中</CookMealSushiOctopus.jobString>
+  <CookMealSushiShrimp.label>エビの握り寿司</CookMealSushiShrimp.label>
+  <CookMealSushiShrimp.description>エビの身を使った美味しいにぎり寿司を作ります. 握り寿司を作るには,ネタ(魚の身),シャリ(米),醤油,ワサビが必要です.</CookMealSushiShrimp.description>
+  <CookMealSushiShrimp.jobString>握り寿司を調理中</CookMealSushiShrimp.jobString>
+  <CookMealSushiCrab.label>カニの握り寿司</CookMealSushiCrab.label>
+  <CookMealSushiCrab.description>カニの身を使った美味しいにぎり寿司を作ります. 握り寿司を作るには,ネタ(魚の身),シャリ(米),醤油,ワサビが必要です.</CookMealSushiCrab.description>
+  <CookMealSushiCrab.jobString>握り寿司を調理中</CookMealSushiCrab.jobString>
+  <CookMealSushiShellfish.label>貝の握り寿司</CookMealSushiShellfish.label>
+  <CookMealSushiShellfish.description>貝類の身を使った美味しいにぎり寿司を作ります. 握り寿司を作るには,ネタ(魚の身),シャリ(米),醤油,ワサビが必要です.</CookMealSushiShellfish.description>
+  <CookMealSushiShellfish.jobString>握り寿司を調理中</CookMealSushiShellfish.jobString>
+  <CookMealSeafoodChili.label>海鮮チリ</CookMealSeafoodChili.label>
+  <CookMealSeafoodChili.description>魚介の肉と野菜をチリソースで和えて作る手の込んだ料理を調理します.</CookMealSeafoodChili.description>
+  <CookMealSeafoodChili.jobString>海鮮チリを調理中</CookMealSeafoodChili.jobString>
+  <CookMealSeafoodChiliBulk.label>海鮮チリx4</CookMealSeafoodChiliBulk.label>
+  <CookMealSeafoodChiliBulk.description>魚介の肉と野菜をチリソースで和えて作る手の込んだ料理を一度に4つ調理します.</CookMealSeafoodChiliBulk.description>
+  <CookMealSeafoodChiliBulk.jobString>海鮮チリを4つ調理中</CookMealSeafoodChiliBulk.jobString>
+  <CookMealSurfAndTurf.label>サーフ＆ターフ</CookMealSurfAndTurf.label>
+  <CookMealSurfAndTurf.description>シーフードと赤身の肉を組み合わせたサーフ＆ターフを調理します. 典型的なシーフードの材料は,エビ,イカまたはタコ,貝類などです. 肉は通常牛ステーキですが,他のものを使用することもできます.</CookMealSurfAndTurf.description>
+  <CookMealSurfAndTurf.jobString>サーフ＆ターフを調理中</CookMealSurfAndTurf.jobString>
+  <CookMealSurfAndTurfBulk.label>サーフ＆ターフx4</CookMealSurfAndTurfBulk.label>
+  <CookMealSurfAndTurfBulk.description>シーフードと赤身の肉を組み合わせたサーフ＆ターフを一度に4つ調理します. 典型的なシーフードの材料は,エビ,イカまたはタコ,貝類などです. 肉は通常牛ステーキですが,他のものを使用することもできます.</CookMealSurfAndTurfBulk.description>
+  <CookMealSurfAndTurfBulk.jobString>サーフ＆ターフを4つ調理中</CookMealSurfAndTurfBulk.jobString>
+  <CookMealFishMeuniere.label>魚のムニエル</CookMealFishMeuniere.label>
+  <CookMealFishMeuniere.description>魚の切り身と野菜の材料を組み合わせて,非常に複雑で贅沢な食事を調理します. 素材を厳選するため多く材料が無駄になります.</CookMealFishMeuniere.description>
+  <CookMealFishMeuniere.jobString>魚のムニエルを調理中</CookMealFishMeuniere.jobString>
+  <CookMealFishMeuniereBulk.label>魚のムニエルx4</CookMealFishMeuniereBulk.label>
+  <CookMealFishMeuniereBulk.description>魚の切り身と野菜の材料を組み合わせて,非常に複雑で贅沢な食事を一度に4つ調理します. 素材を厳選するため多く材料が無駄になります.</CookMealFishMeuniereBulk.description>
+  <CookMealFishMeuniereBulk.jobString>魚のムニエルを4つ調理中</CookMealFishMeuniereBulk.jobString>
+  <CookMealSeafoodPaellaBulk.label>パエリアx4</CookMealSeafoodPaellaBulk.label>
+  <CookMealSeafoodPaellaBulk.description>シーフードをたっぷり使った贅沢なパエリアを4食分作ります.\n"生のエビもしくは生の貝類が必要"\nその他の材料には魚介の身,赤身の肉,野菜を使います. 多くの材料が必要ですが,調理は思ったより簡単です.</CookMealSeafoodPaellaBulk.description>
+  <CookMealSeafoodPaellaBulk.jobString>パエリアを4つ調理中</CookMealSeafoodPaellaBulk.jobString>
+</LanguageData>

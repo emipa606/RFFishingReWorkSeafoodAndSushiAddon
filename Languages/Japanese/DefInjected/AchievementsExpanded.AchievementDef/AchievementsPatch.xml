@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RF_AchivementPaella.label>海鮮王国</RF_AchivementPaella.label>
+  <RF_AchivementPaella.description>合計50食分のパエリアを作る</RF_AchivementPaella.description>
+  <RF_AchievementSushiCounter.label>寿司屋の開店</RF_AchievementSushiCounter.label>
+  <RF_AchievementSushiCounter.description>寿司カウンターを建設する</RF_AchievementSushiCounter.description>
+  <RF_AchievementSushiSquid.label>イカ寿司職人</RF_AchievementSushiSquid.label>
+  <RF_AchievementSushiSquid.description>合計20食分のイカの握り寿司を作る</RF_AchievementSushiSquid.description>
+  <RF_AchievementSushiSalmon.label>サーモン寿司職人</RF_AchievementSushiSalmon.label>
+  <RF_AchievementSushiSalmon.description>合計20食分のサーモンの握り寿司を作る</RF_AchievementSushiSalmon.description>
+  <RF_AchievementSushiGunkan.label>イクラ軍艦職人</RF_AchievementSushiGunkan.label>
+  <RF_AchievementSushiGunkan.description>合計20食分のイクラの軍艦巻きを作る</RF_AchievementSushiGunkan.description>
+  <RF_AchievementSushiMaguro.label>マグロ寿司職人</RF_AchievementSushiMaguro.label>
+  <RF_AchievementSushiMaguro.description>合計20食分のマグロの握り寿司を作る</RF_AchievementSushiMaguro.description>
+  <RF_AchievementSushiOctopus.label>タコ寿司職人</RF_AchievementSushiOctopus.label>
+  <RF_AchievementSushiOctopus.description>合計20食分のタコの握り寿司を作る</RF_AchievementSushiOctopus.description>
+  <RF_AchievementSushiShrimp.label>エビ寿司職人</RF_AchievementSushiShrimp.label>
+  <RF_AchievementSushiShrimp.description>合計20食分のエビの握り寿司を作る</RF_AchievementSushiShrimp.description>
+  <RF_AchievementSushiCrab.label>カニ寿司職人</RF_AchievementSushiCrab.label>
+  <RF_AchievementSushiCrab.description>合計20食分のカニの握り寿司を作る</RF_AchievementSushiCrab.description>
+  <RF_AchievementSushiShellfish.label>貝寿司職人</RF_AchievementSushiShellfish.label>
+  <RF_AchievementSushiShellfish.description>合計20食分の貝の握り寿司を作る</RF_AchievementSushiShellfish.description>
+</LanguageData>

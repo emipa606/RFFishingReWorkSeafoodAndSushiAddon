@@ -1,0 +1,287 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- FOOD -->
+  <ThingDef ParentName="RBB_MealBase">
+    <defName>MealSushiSquid</defName>
+    <label>squid  nigiri</label>
+    <description>Nigiri sushi made with squid  meat.</description>
+    <graphicData>
+      <texPath>Things/Meals/MealSushi/SushiSquid</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <Nutrition>0.50</Nutrition>
+      <DeteriorationRate>20</DeteriorationRate>
+      <MarketValue>20</MarketValue>
+      <WorkToMake>450</WorkToMake>
+    </statBases>
+    <rotatable>false</rotatable>
+    <ingestible>
+      <preferability>MealLavish</preferability>
+      <tasteThought>RF_AteNigiriSushi</tasteThought>
+      <ingestEffect>EatVegetarian</ingestEffect>
+      <ingestSound>Meal_Eat</ingestSound>
+    </ingestible>
+  </ThingDef>
+  <ThingDef ParentName="RBB_MealBase">
+    <defName>MealSushiSalmon</defName>
+    <label>salmon nigiri</label>
+    <description>Nigiri sushi with salmon.</description>
+    <graphicData>
+      <texPath>Things/Meals/MealSushi/SushiSalmon</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <Nutrition>0.50</Nutrition>
+      <DeteriorationRate>20</DeteriorationRate>
+      <MarketValue>20</MarketValue>
+      <WorkToMake>450</WorkToMake>
+    </statBases>
+    <rotatable>false</rotatable>
+    <ingestible>
+      <preferability>MealLavish</preferability>
+      <tasteThought>RF_AteNigiriSushi</tasteThought>
+      <ingestEffect>EatVegetarian</ingestEffect>
+      <ingestSound>Meal_Eat</ingestSound>
+    </ingestible>
+  </ThingDef>
+  <ThingDef ParentName="RBB_MealBase">
+    <defName>MealSushiGunkan</defName>
+    <label>ikura gunkan</label>
+    <description>Delicious sushi made with salmon roe. Gunkanmaki.</description>
+    <graphicData>
+      <texPath>Things/Meals/MealSushi/SushiGunkan</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <Nutrition>0.50</Nutrition>
+      <DeteriorationRate>20</DeteriorationRate>
+      <MarketValue>20</MarketValue>
+      <WorkToMake>450</WorkToMake>
+    </statBases>
+    <rotatable>false</rotatable>
+    <ingestible>
+      <preferability>MealLavish</preferability>
+      <tasteThought>RF_AteNigiriSushi</tasteThought>
+      <ingestEffect>EatVegetarian</ingestEffect>
+      <ingestSound>Meal_Eat</ingestSound>
+    </ingestible>
+  </ThingDef>
+  <ThingDef ParentName="RBB_MealBase">
+    <defName>MealSushiMaguro</defName>
+    <label>maguro nigiri</label>
+    <description>Nigiri sushi with tuna.</description>
+    <graphicData>
+      <texPath>Things/Meals/MealSushi/SushiMaguro</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <Nutrition>0.50</Nutrition>
+      <DeteriorationRate>20</DeteriorationRate>
+      <MarketValue>20</MarketValue>
+      <WorkToMake>450</WorkToMake>
+    </statBases>
+    <rotatable>false</rotatable>
+    <ingestible>
+      <preferability>MealLavish</preferability>
+      <tasteThought>RF_AteNigiriSushi</tasteThought>
+      <ingestEffect>EatVegetarian</ingestEffect>
+      <ingestSound>Meal_Eat</ingestSound>
+    </ingestible>
+  </ThingDef>
+  <ThingDef ParentName="RBB_MealBase">
+    <defName>MealSushiOctopus</defName>
+    <label>octopus nigiri</label>
+    <description>Nigiri sushi with octopus meat.</description>
+    <graphicData>
+      <texPath>Things/Meals/MealSushi/SushiOctopus</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <Nutrition>0.50</Nutrition>
+      <DeteriorationRate>20</DeteriorationRate>
+      <MarketValue>20</MarketValue>
+      <WorkToMake>450</WorkToMake>
+    </statBases>
+    <rotatable>false</rotatable>
+    <ingestible>
+      <preferability>MealLavish</preferability>
+      <tasteThought>RF_AteNigiriSushi</tasteThought>
+      <ingestEffect>EatVegetarian</ingestEffect>
+      <ingestSound>Meal_Eat</ingestSound>
+    </ingestible>
+  </ThingDef>
+  <ThingDef ParentName="RBB_MealBase">
+    <defName>MealSushiShrimp</defName>
+    <label>shrimp nigiri</label>
+    <description>Nigiri sushi with shrimp meat.</description>
+    <graphicData>
+      <texPath>Things/Meals/MealSushi/SushiShrimp</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <Nutrition>0.50</Nutrition>
+      <DeteriorationRate>20</DeteriorationRate>
+      <MarketValue>20</MarketValue>
+      <WorkToMake>450</WorkToMake>
+    </statBases>
+    <rotatable>false</rotatable>
+    <ingestible>
+      <preferability>MealLavish</preferability>
+      <tasteThought>RF_AteNigiriSushi</tasteThought>
+      <ingestEffect>EatVegetarian</ingestEffect>
+      <ingestSound>Meal_Eat</ingestSound>
+    </ingestible>
+  </ThingDef>
+  <ThingDef ParentName="RBB_MealBase">
+    <defName>MealSushiCrab</defName>
+    <label>crab nigiri</label>
+    <description>Nigiri sushi with crab meat.</description>
+    <graphicData>
+      <texPath>Things/Meals/MealSushi/SushiCrab</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <Nutrition>0.50</Nutrition>
+      <DeteriorationRate>20</DeteriorationRate>
+      <MarketValue>20</MarketValue>
+      <WorkToMake>450</WorkToMake>
+    </statBases>
+    <rotatable>false</rotatable>
+    <ingestible>
+      <preferability>MealLavish</preferability>
+      <tasteThought>RF_AteNigiriSushi</tasteThought>
+      <ingestEffect>EatVegetarian</ingestEffect>
+      <ingestSound>Meal_Eat</ingestSound>
+    </ingestible>
+  </ThingDef>
+  <ThingDef ParentName="RBB_MealBase">
+    <defName>MealSushiShellfish</defName>
+    <label>shellfish nigiri</label>
+    <description>Nigiri sushi with shellfish meat.</description>
+    <graphicData>
+      <texPath>Things/Meals/MealSushi/SushiShellfish</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <Nutrition>0.50</Nutrition>
+      <DeteriorationRate>20</DeteriorationRate>
+      <MarketValue>20</MarketValue>
+      <WorkToMake>450</WorkToMake>
+    </statBases>
+    <rotatable>false</rotatable>
+    <ingestible>
+      <preferability>MealLavish</preferability>
+      <tasteThought>RF_AteNigiriSushi</tasteThought>
+      <ingestEffect>EatVegetarian</ingestEffect>
+      <ingestSound>Meal_Eat</ingestSound>
+    </ingestible>
+  </ThingDef>
+  <!--
+	<ThingDef ParentName="RBB_MealBase">
+		<defName>MealAhijo</defName>
+		<label>seafood ahijo</label>
+		<description>A small plate dish made by boiling seafood with olive oil and garlic.</description>
+		<graphicData>
+			<texPath>Things/Meals/Ahijo</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<Nutrition>0.90</Nutrition>
+			<DeteriorationRate>20</DeteriorationRate>
+			<MarketValue>22</MarketValue>
+			<WorkToMake>450</WorkToMake>
+		</statBases>
+		<ingestible>
+			<preferability>MealFine</preferability>
+			<tasteThought>RF_AteAhijo</tasteThought>
+			<ingestEffect>EatVegetarian</ingestEffect>
+			<ingestSound>Meal_Eat</ingestSound>
+		</ingestible>
+	</ThingDef>
+-->
+  <ThingDef ParentName="RBB_MealBase">
+    <defName>MealSeafoodChili</defName>
+    <label>seafood chili sauce</label>
+    <description>Fine dish of chili sauce with seafood and vegetables.</description>
+    <graphicData>
+      <texPath>Things/Meals/ShrimpChili</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <statBases>
+      <Nutrition>0.90</Nutrition>
+      <DeteriorationRate>20</DeteriorationRate>
+      <MarketValue>22</MarketValue>
+      <WorkToMake>450</WorkToMake>
+    </statBases>
+    <ingestible>
+      <preferability>MealFine</preferability>
+      <tasteThought>RF_AteSeafoodChili</tasteThought>
+      <ingestEffect>EatVegetarian</ingestEffect>
+      <ingestSound>Meal_Eat</ingestSound>
+    </ingestible>
+  </ThingDef>
+  <ThingDef ParentName="RBB_MealBase">
+    <defName>MealSurfAndTurf</defName>
+    <label>surf and turf</label>
+    <description>Surf and turf is a lavish meal combining seafood meat and red meat.</description>
+    <graphicData>
+      <texPath>Things/Meals/SurfAndTurf</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <statBases>
+      <Nutrition>1.0</Nutrition>
+      <DeteriorationRate>20</DeteriorationRate>
+      <MarketValue>25</MarketValue>
+      <WorkToMake>450</WorkToMake>
+    </statBases>
+    <ingestible>
+      <preferability>MealFine</preferability>
+      <tasteThought>RF_AteSurfAndTurf</tasteThought>
+      <ingestEffect>EatVegetarian</ingestEffect>
+      <ingestSound>Meal_Eat</ingestSound>
+    </ingestible>
+  </ThingDef>
+  <ThingDef ParentName="RBB_MealBase">
+    <defName>MealFishMeuniere</defName>
+    <label>fish meuniere</label>
+    <description>A lavish fish meuniere. Can use any seafood as an ingredient, but it is essentially sautéed fish fillets.</description>
+    <graphicData>
+      <texPath>Things/Meals/SalmonMeuniere</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <statBases>
+      <Nutrition>1.0</Nutrition>
+      <DeteriorationRate>20</DeteriorationRate>
+      <MarketValue>44</MarketValue>
+      <WorkToMake>800</WorkToMake>
+    </statBases>
+    <ingestible>
+      <preferability>MealLavish</preferability>
+      <tasteThought>RF_AteFishMeuniere</tasteThought>
+      <ingestEffect>EatVegetarian</ingestEffect>
+      <ingestSound>Meal_Eat</ingestSound>
+    </ingestible>
+  </ThingDef>
+  <ThingDef ParentName="RBB_MealBase">
+    <defName>MealSeafoodPaella</defName>
+    <label>paella</label>
+    <description>A lavish meal with plenty of seafood. Can fully enjoy the seafood.</description>
+    <graphicData>
+      <texPath>Things/Meals/SeafoodPaella</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <statBases>
+      <Nutrition>1.0</Nutrition>
+      <DeteriorationRate>20</DeteriorationRate>
+      <MarketValue>45</MarketValue>
+      <WorkToMake>600</WorkToMake>
+    </statBases>
+    <ingestible>
+      <preferability>MealLavish</preferability>
+      <tasteThought>RF_AteSeafoodPaella</tasteThought>
+      <ingestEffect>EatVegetarian</ingestEffect>
+      <ingestSound>Meal_Eat</ingestSound>
+    </ingestible>
+  </ThingDef>
+</Defs>

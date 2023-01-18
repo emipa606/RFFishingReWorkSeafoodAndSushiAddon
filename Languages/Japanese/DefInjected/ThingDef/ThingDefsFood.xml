@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- FOOD -->
+  <MealSushiSquid.label>イカの握り寿司</MealSushiSquid.label>
+  <MealSushiSquid.description>イカのにぎり寿司.</MealSushiSquid.description>
+  <MealSushiSalmon.label>サーモンの握り寿司</MealSushiSalmon.label>
+  <MealSushiSalmon.description>サーモンの握り寿司.</MealSushiSalmon.description>
+  <MealSushiGunkan.label>イクラの軍艦巻き</MealSushiGunkan.label>
+  <MealSushiGunkan.description>イクラで作った美味しいお寿司. 軍艦巻き.</MealSushiGunkan.description>
+  <MealSushiMaguro.label>マグロの握り寿司</MealSushiMaguro.label>
+  <MealSushiMaguro.description>マグロの握り寿司.</MealSushiMaguro.description>
+  <MealSushiOctopus.label>タコの握り寿司</MealSushiOctopus.label>
+  <MealSushiOctopus.description>タコの握り寿司.</MealSushiOctopus.description>
+  <MealSushiShrimp.label>エビの握り寿司</MealSushiShrimp.label>
+  <MealSushiShrimp.description>エビの握り寿司.</MealSushiShrimp.description>
+  <MealSushiCrab.label>カニの握り寿司</MealSushiCrab.label>
+  <MealSushiCrab.description>カニの握り寿司.</MealSushiCrab.description>
+  <MealSushiShellfish.label>貝の握り寿司</MealSushiShellfish.label>
+  <MealSushiShellfish.description>貝の握り寿司.</MealSushiShellfish.description>
+  <MealSeafoodChili.label>海鮮チリ</MealSeafoodChili.label>
+  <MealSeafoodChili.description>魚介の肉と野菜をチリソースで和えた海鮮チリソース.</MealSeafoodChili.description>
+  <MealSurfAndTurf.label>サーフ＆ターフ</MealSurfAndTurf.label>
+  <MealSurfAndTurf.description>サーフ＆ターフは,シーフードと赤身の肉を組み合わせた贅沢な食事です.</MealSurfAndTurf.description>
+  <MealFishMeuniere.label>魚のムニエル</MealFishMeuniere.label>
+  <MealFishMeuniere.description>贅沢な魚のムニエル. どんな魚介類も具材として使用できますが, 本来は魚の切り身のソテーです.</MealFishMeuniere.description>
+  <MealSeafoodPaella.label>パエリア</MealSeafoodPaella.label>
+  <MealSeafoodPaella.description>シーフードたっぷりの贅沢な食事. 海の幸を存分に味わえます.</MealSeafoodPaella.description>
+</LanguageData>

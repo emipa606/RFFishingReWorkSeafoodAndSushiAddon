@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- CONDIMENTS -->
+  <RF_SoySauce.label>寿司醤油</RF_SoySauce.label>
+  <RF_SoySauce.description>醤油,水,酒,みりん,だしなどを煮て作った醤油で,醤油の強い香りと塩味を和らげ,具材の味を生かします.</RF_SoySauce.description>
+  <RF_WasabiPaste.label>寿司用ワサビ</RF_WasabiPaste.label>
+  <RF_WasabiPaste.description>わさび根茎をすりつぶしてペースト状にしたもので,辛味が強く,薬味や調味料として使われます. 寿司に使用するワサビには,食中毒の菌に対して消臭,抗菌効果があります.</RF_WasabiPaste.description>
+</LanguageData>

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RF_SushiCounter.label>寿司カウンター</RF_SushiCounter.label>
+  <RF_SushiCounter.description>にぎり寿司を作るための調理台. 熟練した料理人だけがそこに立つことを許されています.</RF_SushiCounter.description>
+  <Blueprint_RF_SushiCounter.label>寿司カウンター(設計)</Blueprint_RF_SushiCounter.label>
+  <Frame_RF_SushiCounter.label>寿司カウンター(施工)</Frame_RF_SushiCounter.label>
+  <Frame_RF_SushiCounter.description>にぎり寿司を作るための調理台. 熟練した料理人だけがそこに立つことを許されています.</Frame_RF_SushiCounter.description>
+</LanguageData>

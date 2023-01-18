@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RF_AteNigiriSushi.stages.0.label>にぎり寿司を食べた</RF_AteNigiriSushi.stages.0.label>
+  <RF_AteNigiriSushi.stages.0.description>にぎり寿司を食べました. とても美味しい!</RF_AteNigiriSushi.stages.0.description>
+  <RF_AteSeafoodChili.stages.0.label>海鮮チリを食べた</RF_AteSeafoodChili.stages.0.label>
+  <RF_AteSeafoodChili.stages.0.description>海鮮チリを食べました. 美味しかったです!</RF_AteSeafoodChili.stages.0.description>
+  <RF_AteFishMeuniere.stages.0.label>魚のムニエルを食べた</RF_AteFishMeuniere.stages.0.label>
+  <RF_AteFishMeuniere.stages.0.description>魚のムニエルは本当に美味しかった. 身も心も癒されました.</RF_AteFishMeuniere.stages.0.description>
+  <RF_AteSurfAndTurf.stages.0.label>サーフ＆ターフを食べた</RF_AteSurfAndTurf.stages.0.label>
+  <RF_AteSurfAndTurf.stages.0.description>サーフ＆ターフは美味しかった. とても満足!</RF_AteSurfAndTurf.stages.0.description>
+  <RF_AteSeafoodPaella.stages.0.label>パエリアを食べた</RF_AteSeafoodPaella.stages.0.label>
+  <RF_AteSeafoodPaella.stages.0.description>パエリアはとても美味しかった! 身も心も癒されました.</RF_AteSeafoodPaella.stages.0.description>
+  <RF_AteSoySauce.stages.0.label>醤油を味わった</RF_AteSoySauce.stages.0.label>
+  <RF_AteSoySauce.stages.0.description>しょっぱいと思ったけど,あとから甘みと旨味が込み上げてきました.</RF_AteSoySauce.stages.0.description>
+  <RF_AteWasabi.stages.0.label>ワサビを味わった</RF_AteWasabi.stages.0.label>
+  <RF_AteWasabi.stages.0.description>鼻の奥に激痛が通った! でもクセになる!</RF_AteWasabi.stages.0.description>
+</LanguageData>

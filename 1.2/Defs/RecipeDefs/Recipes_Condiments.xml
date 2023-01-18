@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <RecipeDef>
+    <defName>RF_MakeSoySauce</defName>
+    <label>make sushi soy sauce</label>
+    <description>Make sushi soy sauce. Originally, soy sauce is made by mixing grains such as soybeans, wheat, and rice with salt water, steaming and fermenting them for aging, but here you can make soy sauce immediately, but it takes time to prepare.</description>
+    <jobString>Preparing sushi soy sauce.</jobString>
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <workAmount>1500</workAmount>
+    <requiredGiverWorkType>Cooking</requiredGiverWorkType>
+    <recipeUsers>
+      <li>RF_SushiCounter</li>
+    </recipeUsers>
+    <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>RF_RawSoybean</li>
+          </thingDefs>
+        </filter>
+        <count>0.75</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>RawRice</li>
+          </thingDefs>
+        </filter>
+        <count>0.25</count>
+      </li>
+    </ingredients>
+    <products>
+      <RF_SoySauce>10</RF_SoySauce>
+    </products>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>RF_RawSoybean</li>
+        <li>RawRice</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <workSkill>Cooking</workSkill>
+    <skillRequirements>
+      <Cooking>6</Cooking>
+    </skillRequirements>
+    <researchPrerequisite>RFF_MakeSeafood</researchPrerequisite>
+  </RecipeDef>
+  <RecipeDef>
+    <defName>RF_MakeSushiWasabi</defName>
+    <label>make sushi wasabi paste</label>
+    <description>Prepare sushi wasabi paste from raw wasabi.</description>
+    <jobString>Preparing sushi wasabi paste.</jobString>
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <workAmount>200</workAmount>
+    <requiredGiverWorkType>Cooking</requiredGiverWorkType>
+    <recipeUsers>
+      <li>RF_SushiCounter</li>
+    </recipeUsers>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>RF_RawWasabi</li>
+          </thingDefs>
+        </filter>
+        <count>10</count>
+      </li>
+    </ingredients>
+    <products>
+      <RF_WasabiPaste>5</RF_WasabiPaste>
+    </products>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>RF_RawWasabi</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <workSkill>Cooking</workSkill>
+    <researchPrerequisite>RFF_MakeSeafood</researchPrerequisite>
+  </RecipeDef>
+</Defs>
