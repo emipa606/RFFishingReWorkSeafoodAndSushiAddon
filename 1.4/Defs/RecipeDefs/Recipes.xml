@@ -75,6 +75,31 @@
       </thingDefs>
     </fixedIngredientFilter>
   </RecipeDef>
+  <RecipeDef ParentName="RF_CookMealSushiBase">
+    <defName>CookMealSushiSquidBulk</defName>
+    <label>cook squid nigiri sushi x4</label>
+    <description>Cook 4 nigiri sushi made with white squid meat. To make nigiri sushi, you need each fish meat, rice, soy sauce, and wasabi.</description>
+    <jobString>Preparing nigiri sushi.</jobString>
+    <workAmount>1200</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>RawSquidMeat</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <products>
+      <MealSushiSquid>4</MealSushiSquid>
+    </products>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>RawSquidMeat</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
   <!-- nigiri sushi salmon -->
   <RecipeDef ParentName="RF_CookMealSushiBase">
     <defName>CookMealSushiSalmon</defName>
@@ -93,6 +118,31 @@
     </ingredients>
     <products>
       <MealSushiSalmon>1</MealSushiSalmon>
+    </products>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>RawSalmonMeat</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+  <RecipeDef ParentName="RF_CookMealSushiBase">
+    <defName>CookMealSushiSalmonBulk</defName>
+    <label>cook salmon nigiri sushi x4</label>
+    <description>Cook 4 nigiri sushi with salmon. To make nigiri sushi, you need each fish meat, rice, soy sauce, and wasabi.</description>
+    <jobString>Preparing nigiri sushi.</jobString>
+    <workAmount>1200</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>RawSalmonMeat</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <products>
+      <MealSushiSalmon>4</MealSushiSalmon>
     </products>
     <fixedIngredientFilter>
       <thingDefs>
@@ -143,6 +193,49 @@
       </thingDefs>
     </fixedIngredientFilter>
   </RecipeDef>
+  <RecipeDef ParentName="RF_CookMealSushiBase">
+    <defName>CookMealSushiGunkanBulk</defName>
+    <label>cook gunkanmaki x4</label>
+    <description>cook 4 nigiri sushi with ikura(salmon roe). To make nigiri sushi, you need each fish meat, rice, soy sauce, and wasabi.(Usually, gunkanmaki not require wasabi.)</description>
+    <jobString>Preparing nigiri sushi.</jobString>
+    <workAmount>1200</workAmount>
+    <ingredients Inherit="false">
+      <li>
+        <filter>
+          <thingDefs>
+            <li>RawRice</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>RF_SoySauce</li>
+          </thingDefs>
+        </filter>
+        <count>0.2</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>SalmonRoe</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <products>
+      <MealSushiGunkan>4</MealSushiGunkan>
+    </products>
+    <fixedIngredientFilter Inherit="false">
+      <thingDefs>
+        <li>RawRice</li>
+        <li>RF_SoySauce</li>
+        <li>SalmonRoe</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
   <!-- nigiri sushi maguro -->
   <RecipeDef ParentName="RF_CookMealSushiBase">
     <defName>CookMealSushiMaguro</defName>
@@ -161,6 +254,31 @@
     </ingredients>
     <products>
       <MealSushiMaguro>1</MealSushiMaguro>
+    </products>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>RawTunaMeat</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+  <RecipeDef ParentName="RF_CookMealSushiBase">
+    <defName>CookMealSushiMaguroBulk</defName>
+    <label>cook maguro nigiri sushi x4</label>
+    <description>Cook 4 nigiri sushi with maguro(tuna) meat. To make nigiri sushi, you need each fish meat, rice, soy sauce, and wasabi.</description>
+    <jobString>Preparing nigiri sushi.</jobString>
+    <workAmount>1200</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>RawTunaMeat</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <products>
+      <MealSushiMaguro>4</MealSushiMaguro>
     </products>
     <fixedIngredientFilter>
       <thingDefs>
@@ -193,6 +311,31 @@
       </thingDefs>
     </fixedIngredientFilter>
   </RecipeDef>
+  <RecipeDef ParentName="RF_CookMealSushiBase">
+    <defName>CookMealSushiOctopusBulk</defName>
+    <label>bulk cook octopus nigiri sushi x4</label>
+    <description>Cook 4 nigiri sushi made with white octopus meat. To make nigiri sushi, you need each fish meat, rice, soy sauce, and wasabi.</description>
+    <jobString>Preparing nigiri sushi.</jobString>
+    <workAmount>1200</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>RawOctopusMeat</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <products>
+      <MealSushiOctopus>4</MealSushiOctopus>
+    </products>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>RawOctopusMeat</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
   <!-- nigiri sushi shrimp -->
   <RecipeDef ParentName="RF_CookMealSushiBase">
     <defName>CookMealSushiShrimp</defName>
@@ -211,6 +354,31 @@
     </ingredients>
     <products>
       <MealSushiShrimp>1</MealSushiShrimp>
+    </products>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>RawShrimpMeat</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+  <RecipeDef ParentName="RF_CookMealSushiBase">
+    <defName>CookMealSushiShrimpBulk</defName>
+    <label>cook shrimp nigiri sushi x4</label>
+    <description>Cook 4 nigiri sushi with shrimp meat. To make nigiri sushi, you need each fish meat, rice, soy sauce, and wasabi.</description>
+    <jobString>Preparing nigiri sushi.</jobString>
+    <workAmount>1200</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>RawShrimpMeat</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <products>
+      <MealSushiShrimp>4</MealSushiShrimp>
     </products>
     <fixedIngredientFilter>
       <thingDefs>
@@ -251,6 +419,39 @@
     </skillRequirements>
     <researchPrerequisite>RFF_MakeSeafood</researchPrerequisite>
   </RecipeDef>
+  <RecipeDef ParentName="RF_CookMealSushiBase">
+    <defName>CookMealSushiCrabBulk</defName>
+    <label>cook crab nigiri sushi x4</label>
+    <description>Cook 4 nigiri sushi with crab meat. To make nigiri sushi, you need each fish meat, rice, soy sauce, and wasabi.</description>
+    <jobString>Preparing nigiri sushi.</jobString>
+    <workAmount>1200</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>RawCrabMeat</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <products>
+      <MealSushiCrab>4</MealSushiCrab>
+    </products>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>RawCrabMeat</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <workSkill>Cooking</workSkill>
+    <recipeUsers>
+      <li>RF_SushiCounter</li>
+    </recipeUsers>
+    <skillRequirements>
+      <Cooking>10</Cooking>
+    </skillRequirements>
+    <researchPrerequisite>RFF_MakeSeafood</researchPrerequisite>
+  </RecipeDef>
   <!-- nigiri sushi shellfish -->
   <RecipeDef ParentName="RF_CookMealSushiBase">
     <defName>CookMealSushiShellfish</defName>
@@ -269,6 +470,31 @@
     </ingredients>
     <products>
       <MealSushiShellfish>1</MealSushiShellfish>
+    </products>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>RawShellfishMeat</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+  <RecipeDef ParentName="RF_CookMealSushiBase">
+    <defName>CookMealSushiShellfishBulk</defName>
+    <label>cook shellfish nigiri sushi x4</label>
+    <description>Cook 4 nigiri sushi with shellfish meat. To make nigiri sushi, you need each fish meat, rice, soy sauce, and wasabi.</description>
+    <jobString>Preparing nigiri sushi.</jobString>
+    <workAmount>1200</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>RawShellfishMeat</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <products>
+      <MealSushiShellfish>4</MealSushiShellfish>
     </products>
     <fixedIngredientFilter>
       <thingDefs>

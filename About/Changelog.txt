@@ -1,4 +1,7 @@
 # Changelog for RFFishingReWorkSeafoodAndSushiAddon
 
+1.4.1 - Added some bulk recipes
+
+
 1.4.0 - First publish
 
