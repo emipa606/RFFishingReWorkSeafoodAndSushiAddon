@@ -36,13 +36,13 @@
           </value>
         </li>
         <li Class="PatchOperationReplace">
-          <xpath>/Defs/RecipeDef[defName = "CookMealSushiGunkan"]/ingredients/li[2]/filter/thingDefs/li[text()="RF_SoySauce"]</xpath>
+          <xpath>/Defs/RecipeDef[defName = "CookMealSushiGunkan" or defName = "CookMealSushiGunkanBulk"]/ingredients/li[2]/filter/thingDefs/li[text()="RF_SoySauce"]</xpath>
           <value>
             <li>VCE_SoySauce</li>
           </value>
         </li>
         <li Class="PatchOperationReplace">
-          <xpath>/Defs/RecipeDef[defName = "CookMealSushiGunkan"]/fixedIngredientFilter/thingDefs/li[text()="RF_SoySauce"]</xpath>
+          <xpath>/Defs/RecipeDef[defName = "CookMealSushiGunkan" or defName = "CookMealSushiGunkanBulk"]/fixedIngredientFilter/thingDefs/li[text()="RF_SoySauce"]</xpath>
           <value>
             <li>VCE_SoySauce</li>
           </value>
@@ -54,7 +54,7 @@
           <xpath>/Defs/ThingDef[defName = "RF_RawSoybean" or defName = "RF_RawWasabi" or defName = "RF_Soybean" or defName = "RF_Wasabi"]</xpath>
         </li>
         <li Class="PatchOperationRemove">
-          <xpath>/Defs/RecipeDef[defName = "RF_MakeSoySauce" or defName = "RF_MakeSushiWasabi"]</xpath>
+          <xpath>/Defs/RecipeDef[defName = "RF_MakeSoySauce" or defName = "RF_MakeSoySauceBulk" or defName = "RF_MakeSushiWasabi" or defName = "RF_MakeSushiWasabiBulk"]</xpath>
         </li>
       </operations>
     </match>

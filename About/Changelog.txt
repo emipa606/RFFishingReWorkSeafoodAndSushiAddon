@@ -1,5 +1,8 @@
 # Changelog for RFFishingReWorkSeafoodAndSushiAddon
 
+1.4.2 - Fixed some missing patches in the Vanilla Cooking Sushi integration.
+
+
 1.4.1 - Added some bulk recipes
 
 
