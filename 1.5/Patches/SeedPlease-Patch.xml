@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/RecipeDef[defName = "VCE_CookNigiriFine"]</xpath>
+    <success>Always</success>
+    <nomatch Class="PatchOperationConditional">
+      <xpath>/Defs/SeedsPlease.SeedDef[@Name="SeedBase"]</xpath>
+      <success>Always</success>
+      <match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+          <!-- seeds -->
+          <li Class="PatchOperationAdd">
+            <xpath>/Defs</xpath>
+            <value>
+              <SeedsPlease.SeedDef ParentName="SeedBase">
+                <defName>Seed_RF_Soybean</defName>
+                <label>soybean seeds</label>
+                <sources>
+                  <li>RF_Soybean</li>
+                </sources>
+                <graphicData>
+                  <texPath>Things/Items/Seeds/RF_Soybean</texPath>
+                  <graphicClass>Graphic_Single</graphicClass>
+                </graphicData>
+                <seed>
+                  <baseChance>0.33</baseChance>
+                </seed>
+              </SeedsPlease.SeedDef>
+              <SeedsPlease.SeedDef ParentName="SeedBase">
+                <defName>Seed_RF_Wasabi</defName>
+                <label>wasabi seeds</label>
+                <sources>
+                  <li>RF_Wasabi</li>
+                </sources>
+                <graphicData>
+                  <texPath>Things/Items/Seeds/RF_Wasabi</texPath>
+                  <graphicClass>Graphic_Single</graphicClass>
+                </graphicData>
+                <seed>
+                  <baseChance>0.33</baseChance>
+                </seed>
+              </SeedsPlease.SeedDef>
+            </value>
+          </li>
+          <!-- recipe -->
+          <li Class="PatchOperationAdd">
+            <xpath>/Defs</xpath>
+            <value>
+              <RecipeDef ParentName="ExtractSeed">
+                <defName>ExtractSeed_RF_Soybean</defName>
+                <label>Extract allspice seeds</label>
+                <description>Extract seeds from soybean.</description>
+                <ingredients>
+                  <li>
+                    <filter>
+                      <thingDefs>
+                        <li>RF_RawSoybean</li>
+                      </thingDefs>
+                    </filter>
+                    <count>4</count>
+                  </li>
+                </ingredients>
+                <fixedIngredientFilter>
+                  <thingDefs>
+                    <li>RF_RawSoybean</li>
+                  </thingDefs>
+                </fixedIngredientFilter>
+                <products>
+                  <Seed_RF_Soybean>3</Seed_RF_Soybean>
+                </products>
+              </RecipeDef>
+              <RecipeDef ParentName="ExtractSeed">
+                <defName>ExtractSeed_RF_Wasabi</defName>
+                <label>Extract allspice seeds</label>
+                <description>Extract seeds from wasabi.</description>
+                <ingredients>
+                  <li>
+                    <filter>
+                      <thingDefs>
+                        <li>RF_RawWasabi</li>
+                      </thingDefs>
+                    </filter>
+                    <count>4</count>
+                  </li>
+                </ingredients>
+                <fixedIngredientFilter>
+                  <thingDefs>
+                    <li>RF_RawWasabi</li>
+                  </thingDefs>
+                </fixedIngredientFilter>
+                <products>
+                  <Seed_RF_Wasabi>3</Seed_RF_Wasabi>
+                </products>
+              </RecipeDef>
+            </value>
+          </li>
+        </operations>
+      </match>
+    </nomatch>
+  </Operation>
+</Patch>

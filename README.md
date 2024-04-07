@@ -24,7 +24,7 @@ This study must be completed to take advantage of seafood recipes.
 - **Sushi counter table**
 For cooking nigiri sushi.
 
-- **Sushi soy sauce &amp; Sushi wasabi**
+- **Sushi soy sauce and Sushi wasabi**
 Now can be prepared at the sushi counter.
 
 - **Soybean and wasabi plants.**
