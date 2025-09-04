@@ -1,0 +1,65 @@
+ManifestFileVersion: 0
+CRC: 1483692611
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 523c4f23065663ee96b39a75e8dd8a70
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2612ac43db082a73502ee80f2eceb73f
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 523c4f23065663ee96b39a75e8dd8a70
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Data/Mlie.RFFishingReWorkSeafoodAndSushiAddon/Textures/Things/Meals/MealSushi/SushiSquid.png
+- Assets/Data/Mlie.RFFishingReWorkSeafoodAndSushiAddon/Textures/Things/Plant/RF_Wasabi/RF_WasabiA.png
+- Assets/Data/Mlie.RFFishingReWorkSeafoodAndSushiAddon/Textures/Achievements/RF_AchieveSushiGunkan.png
+- Assets/Data/Mlie.RFFishingReWorkSeafoodAndSushiAddon/Textures/Things/Items/RawPlant/RF_RawWasabi.png
+- Assets/Data/Mlie.RFFishingReWorkSeafoodAndSushiAddon/Textures/Achievements/RF_AchieveSushiShellfish.png
+- Assets/Data/Mlie.RFFishingReWorkSeafoodAndSushiAddon/Textures/Things/Items/Condiments/RF_Wasabi.png
+- Assets/Data/Mlie.RFFishingReWorkSeafoodAndSushiAddon/Textures/Things/Meals/SurfAndTurf/SurfAndTurf_c.png
+- Assets/Data/Mlie.RFFishingReWorkSeafoodAndSushiAddon/Textures/Achievements/RF_AchieveSushiSalmon.png
+- Assets/Data/Mlie.RFFishingReWorkSeafoodAndSushiAddon/Textures/Things/Items/Condiments/RF_Soysauce.png
+- Assets/Data/Mlie.RFFishingReWorkSeafoodAndSushiAddon/Textures/Things/Meals/SalmonMeuniere/SalmonMeuniere_a.png
+- Assets/Data/Mlie.RFFishingReWorkSeafoodAndSushiAddon/Textures/Things/Meals/MealSushi/SushiShrimp.png
+- Assets/Data/Mlie.RFFishingReWorkSeafoodAndSushiAddon/Textures/Things/Meals/MealSushi/SushiCrab.png
+- Assets/Data/Mlie.RFFishingReWorkSeafoodAndSushiAddon/Textures/Achievements/RF_AchieveSushiShrimp.png
+- Assets/Data/Mlie.RFFishingReWorkSeafoodAndSushiAddon/Textures/Things/Items/RawPlant/RF_RawSoybean.png
+- Assets/Data/Mlie.RFFishingReWorkSeafoodAndSushiAddon/Textures/Things/Meals/MealSushi/SushiGunkan.png
+- Assets/Data/Mlie.RFFishingReWorkSeafoodAndSushiAddon/Textures/Things/Items/Seeds/RF_Wasabi.png
+- Assets/Data/Mlie.RFFishingReWorkSeafoodAndSushiAddon/Textures/Things/Meals/FishMeuniere/FishMeuniere_c.png
+- Assets/Data/Mlie.RFFishingReWorkSeafoodAndSushiAddon/Textures/Achievements/RF_AchieveSushiOctopus.png
+- Assets/Data/Mlie.RFFishingReWorkSeafoodAndSushiAddon/Textures/Things/Plant/RF_Soybean/RF_SoybeanA.png
+- Assets/Data/Mlie.RFFishingReWorkSeafoodAndSushiAddon/Textures/Achievements/RF_AchiveSushiCounter.png
+- Assets/Data/Mlie.RFFishingReWorkSeafoodAndSushiAddon/Textures/Things/Meals/ShrimpChili/ShrimpChili_b.png
+- Assets/Data/Mlie.RFFishingReWorkSeafoodAndSushiAddon/Textures/Things/Meals/SeafoodPaella/SeafoodPaella_a.png
+- Assets/Data/Mlie.RFFishingReWorkSeafoodAndSushiAddon/Textures/Things/Meals/SurfAndTurf/SurfAndTurf_a.png
+- Assets/Data/Mlie.RFFishingReWorkSeafoodAndSushiAddon/Textures/Things/Meals/SurfAndTurf/SurfAndTurf_b.png
+- Assets/Data/Mlie.RFFishingReWorkSeafoodAndSushiAddon/Textures/Things/Plant/RF_Soybean_Immature/RF_SoybeanA.png
+- Assets/Data/Mlie.RFFishingReWorkSeafoodAndSushiAddon/Textures/Things/Meals/ShrimpChili/ShrimpChili_c.png
+- Assets/Data/Mlie.RFFishingReWorkSeafoodAndSushiAddon/Textures/Things/Meals/MealSushi/SushiSalmon.png
+- Assets/Data/Mlie.RFFishingReWorkSeafoodAndSushiAddon/Textures/Things/Meals/SalmonMeuniere/SalmonMeuniere_b.png
+- Assets/Data/Mlie.RFFishingReWorkSeafoodAndSushiAddon/Textures/Achievements/RF_AchieveSushiMaguro.png
+- Assets/Data/Mlie.RFFishingReWorkSeafoodAndSushiAddon/Textures/Things/Items/Seeds/RF_Soybean.png
+- Assets/Data/Mlie.RFFishingReWorkSeafoodAndSushiAddon/Textures/Achievements/RF_AchieveSushiSquid.png
+- Assets/Data/Mlie.RFFishingReWorkSeafoodAndSushiAddon/Textures/Things/Meals/MealSushi/SushiShellfish.png
+- Assets/Data/Mlie.RFFishingReWorkSeafoodAndSushiAddon/Textures/Things/Meals/SalmonMeuniere/SalmonMeuniere_c.png
+- Assets/Data/Mlie.RFFishingReWorkSeafoodAndSushiAddon/Textures/Things/Meals/SeafoodPaella/SeafoodPaella_b.png
+- Assets/Data/Mlie.RFFishingReWorkSeafoodAndSushiAddon/Textures/Things/Meals/MealSushi/SushiMaguro.png
+- Assets/Data/Mlie.RFFishingReWorkSeafoodAndSushiAddon/Textures/Things/Meals/MealSushi/SushiOctopus.png
+- Assets/Data/Mlie.RFFishingReWorkSeafoodAndSushiAddon/Textures/Things/Buildings/RF_SushiCounter_east.png
+- Assets/Data/Mlie.RFFishingReWorkSeafoodAndSushiAddon/Textures/Achievements/RF_AchivePaella.png
+- Assets/Data/Mlie.RFFishingReWorkSeafoodAndSushiAddon/Textures/Things/Buildings/RF_SushiCounter_south.png
+- Assets/Data/Mlie.RFFishingReWorkSeafoodAndSushiAddon/Textures/Things/Meals/FishMeuniere/FishMeuniere_b.png
+- Assets/Data/Mlie.RFFishingReWorkSeafoodAndSushiAddon/Textures/Achievements/RF_AchieveSushiCrab.png
+- Assets/Data/Mlie.RFFishingReWorkSeafoodAndSushiAddon/Textures/Things/Meals/SeafoodPaella/SeafoodPaella_c.png
+- Assets/Data/Mlie.RFFishingReWorkSeafoodAndSushiAddon/Textures/Things/Meals/FishMeuniere/FishMeuniere_a.png
+- Assets/Data/Mlie.RFFishingReWorkSeafoodAndSushiAddon/Textures/Things/Buildings/RF_SushiCounter_north.png
+- Assets/Data/Mlie.RFFishingReWorkSeafoodAndSushiAddon/Textures/Things/Meals/ShrimpChili/ShrimpChili_a.png
+- Assets/Data/Mlie.RFFishingReWorkSeafoodAndSushiAddon/Textures/Things/Plant/RF_Wasabi_Immature/RF_WasabiA.png
+Dependencies: []

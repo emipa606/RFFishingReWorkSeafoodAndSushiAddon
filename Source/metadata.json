@@ -2,6 +2,17 @@
   "Continued": true,
   "CanAdd": "0",
   "CanRemove": "2",
-  "PreviewVersion": "1.5",
-  "SocialImageSet": true
+  "PreviewVersion": "1.6",
+  "SocialImageSet": true,
+  "Patches": true,
+  "Defs": true,
+  "Assemblies": false,
+  "LinesOfCode": 0,
+  "LinesOfXML": 88912,
+  "CodeBaseSize": 77,
+  "LastXmlCleaning": "2025-09-04T14:42:08.3976815+02:00",
+  "SearchTags": [
+    " sushi",
+    " recipes"
+  ]
 }

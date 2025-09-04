@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ResearchProjectDef>
+    <defName>RFF_MakeSeafood</defName>
+    <label>sea food recipe</label>
+    <description>Some cooking recipes using caught fish and seafood will be unlocked.</description>
+    <baseCost>400</baseCost>
+    <techLevel>Medieval</techLevel>
+    <tab>Main</tab>
+    <researchViewX>1.00</researchViewX>
+    <researchViewY>5.60</researchViewY>
+  </ResearchProjectDef>
+</Defs>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- FOOD -->
+  <ThingDef Name="RBS_MealBase" Abstract="True" ParentName="MealBase">
+    <statBases>
+      <Beauty>-4</Beauty>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>4</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+    <tradeability>Buyable</tradeability>
+  </ThingDef>
+  <ThingDef ParentName="RBS_MealBase">
+    <defName>MealSushiSalmon</defName>
+    <label>salmon nigiri</label>
+    <description>Nigiri sushi with salmon.</description>
+    <graphicData>
+      <texPath>Things/Meals/MealSushi/SushiSalmon</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <Nutrition>0.50</Nutrition>
+      <DeteriorationRate>20</DeteriorationRate>
+      <MarketValue>20</MarketValue>
+      <WorkToMake>450</WorkToMake>
+    </statBases>
+    <rotatable>false</rotatable>
+    <ingestible>
+      <preferability>MealLavish</preferability>
+      <tasteThought>RF_AteNigiriSushi</tasteThought>
+      <ingestEffect>EatVegetarian</ingestEffect>
+      <ingestSound>Meal_Eat</ingestSound>
+    </ingestible>
+  </ThingDef>
+  <ThingDef ParentName="RBS_MealBase">
+    <defName>MealSushiMaguro</defName>
+    <label>maguro nigiri</label>
+    <description>Nigiri sushi with tuna.</description>
+    <graphicData>
+      <texPath>Things/Meals/MealSushi/SushiMaguro</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <Nutrition>0.50</Nutrition>
+      <DeteriorationRate>20</DeteriorationRate>
+      <MarketValue>20</MarketValue>
+      <WorkToMake>450</WorkToMake>
+    </statBases>
+    <rotatable>false</rotatable>
+    <ingestible>
+      <preferability>MealLavish</preferability>
+      <tasteThought>RF_AteNigiriSushi</tasteThought>
+      <ingestEffect>EatVegetarian</ingestEffect>
+      <ingestSound>Meal_Eat</ingestSound>
+    </ingestible>
+  </ThingDef>
+  <ThingDef ParentName="RBS_MealBase">
+    <defName>MealSeafoodChili</defName>
+    <label>seafood chili sauce</label>
+    <description>Fine dish of chili sauce with seafood and vegetables.</description>
+    <graphicData>
+      <texPath>Things/Meals/ShrimpChili</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <statBases>
+      <Nutrition>0.90</Nutrition>
+      <DeteriorationRate>20</DeteriorationRate>
+      <MarketValue>22</MarketValue>
+      <WorkToMake>450</WorkToMake>
+    </statBases>
+    <ingestible>
+      <preferability>MealFine</preferability>
+      <tasteThought>RF_AteSeafoodChili</tasteThought>
+      <ingestEffect>EatVegetarian</ingestEffect>
+      <ingestSound>Meal_Eat</ingestSound>
+    </ingestible>
+  </ThingDef>
+</Defs>

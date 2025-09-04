@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/RecipeDef[defName = "VCE_CookNigiriFine"]</xpath>
+    <success>Always</success>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <!-- remove VCE-sushi Nigiri and Gunkan -->
+        <li Class="PatchOperationRemove">
+          <xpath>/Defs/RecipeDef[defName = "VCE_CookNigiriFine" or defName = "VCE_CookNigiriFineBulk" or defName = "VCE_CookGunkanmakiGourmet"]</xpath>
+        </li>
+        <!-- Fix sushi recipe ingredients -->
+        <li Class="PatchOperationReplace">
+          <xpath>/Defs/RecipeDef/ingredients/li/filter/thingDefs/li[text()="RF_SoySauce"]</xpath>
+          <value>
+            <li>VCE_SoySauce</li>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>/Defs/RecipeDef/fixedIngredientFilter/thingDefs/li[text()="RF_SoySauce"]</xpath>
+          <value>
+            <li>VCE_SoySauce</li>
+          </value>
+        </li>
+        <li Class="PatchOperationRemove">
+          <xpath>/Defs/ThingDef[defName = "RF_SoySauce" or defName = "RF_WasabiPaste"]</xpath>
+        </li>
+        <li Class="PatchOperationRemove">
+          <xpath>/Defs/ThingDef[defName = "RF_RawSoybean" or defName = "RF_RawWasabi" or defName = "RF_Soybean" or defName = "RF_Wasabi"]</xpath>
+        </li>
+        <li Class="PatchOperationRemove">
+          <xpath>/Defs/RecipeDef[defName = "RF_MakeSoySauce" or defName = "RF_MakeSoySauceBulk" or defName = "RF_MakeSushiWasabi" or defName = "RF_MakeSushiWasabiBulk"]</xpath>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>
