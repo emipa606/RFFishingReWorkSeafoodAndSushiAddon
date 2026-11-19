@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: sushi soy sauce -->
+  <RF_SoySauce.label>sushi soy sauce</RF_SoySauce.label>
+  <!-- EN: It is a soy sauce made by boiling soy sauce, water, sake, mirin, dashi, etc., and is used to soften the strong aroma and saltiness of soy sauce and make the best use of the taste of the ingredients. -->
+  <RF_SoySauce.description>It is a soy sauce made by boiling soy sauce, water, sake, mirin, dashi, etc., and is used to soften the strong aroma and saltiness of soy sauce and make the best use of the taste of the ingredients.</RF_SoySauce.description>
+  <!-- EN: sushi wasabi paste -->
+  <RF_WasabiPaste.label>sushi wasabi paste</RF_WasabiPaste.label>
+  <!-- EN: A paste made by grinding wasabi rhizomes, which has a strong pungent flavor and is used as a condiment or seasoning. Wasabi used for sushi has deodorant and antibacterial effects against food poisoning. -->
+  <RF_WasabiPaste.description>A paste made by grinding wasabi rhizomes, which has a strong pungent flavor and is used as a condiment or seasoning. Wasabi used for sushi has deodorant and antibacterial effects against food poisoning.</RF_WasabiPaste.description>
+</LanguageData>

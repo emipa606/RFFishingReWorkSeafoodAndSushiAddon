@@ -1,13 +1,15 @@
 # [[RF] Fishing-ReWork Seafood and Sushi Addon (Continued)](https://steamcommunity.com/sharedfiles/filedetails/?id=2920099647)
 
-![Image](https://i.imgur.com/buuPQel.png)
+![Image](https://img.litet.net/logos/Info.png)
 
 Update of Si-Cafes mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=2384576356
 
-![Image](https://i.imgur.com/pufA0kM.png)
+- If Odyssey is loaded, only the recipes with fishes available in Odyssey will be available
+
+![Image](https://img.litet.net/logos/Notice.png)
 	
-![Image](https://i.imgur.com/Z4GOv8H.png)
+![Image](https://img.litet.net/logos/OriginalDescription.png)
 
 # Description
 
@@ -30,7 +32,7 @@ Now can be prepared at the sushi counter.
 For sushi soy sauce and sushi wasabi paste.
 
 
-  ![Image](https://i.imgur.com/NDtzocH.png?2)
+  ![Image](https://img.litet.net/NDtzocH.png?2)
 ※If you have VCE sushi, these will be disabled. Use soybeans and wasabi from VCE sushi.
 
 # Recipe
@@ -81,15 +83,15 @@ I will describe it here.
 # Vanilla Achievements Expanded Compatibility
 
 
-[![Image](https://i.imgur.com/kNldlMg.png)](https://steamcommunity.com/sharedfiles/filedetails/?id=2288125657)
+[![Image](https://img.litet.net/kNldlMg.png)](https://steamcommunity.com/sharedfiles/filedetails/?id=2288125657)
 	
-![Image](https://i.imgur.com/PwoNOj4.png)
+![Image](https://img.litet.net/logos/ReportingIssues.png)
 
 
 
 -  See if the the error persists if you just have this mod and its requirements active.
 -  If not, try adding your other mods until it happens again.
--  Post your error-log using the [Log Uploader](https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404) or the standalone [Uploader](https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404) and command Ctrl+F12
+-  Always post your log using the [Log Uploader](https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404)
 -  For best support, please use the Discord-channel for error-reporting.
 -  Do not report errors by making a discussion-thread, I get no notification of that.
 -  If you have the solution for a problem, please post it to the GitHub repository.
@@ -97,4 +99,4 @@ I will describe it here.
 
  
 
-[![Image](https://img.shields.io/github/v/release/emipa606/RFFishingReWorkSeafoodAndSushiAddon?label=latest%20version&style=plastic&color=9f1111&labelColor=black)](https://steamcommunity.com/sharedfiles/filedetails/changelog/2920099647) | tags:  sushi,  recipes
+[![Image](https://img.shields.io/github/v/release/emipa606/RFFishingReWorkSeafoodAndSushiAddon?label=latest%20version&style=plastic&color=9f1111&labelColor=black)](https://steamcommunity.com/sharedfiles/filedetails/changelog/2920099647) | recipes, sushi

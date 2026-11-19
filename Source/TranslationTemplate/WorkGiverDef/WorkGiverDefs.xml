@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: cook at sushi couter -->
+  <WorkGiver_DoBillsRFSushi.label>cook at sushi couter</WorkGiver_DoBillsRFSushi.label>
+  <!-- EN: cooking at -->
+  <WorkGiver_DoBillsRFSushi.gerund>cooking at</WorkGiver_DoBillsRFSushi.gerund>
+  <!-- EN: cook -->
+  <WorkGiver_DoBillsRFSushi.verb>cook</WorkGiver_DoBillsRFSushi.verb>
+</LanguageData>

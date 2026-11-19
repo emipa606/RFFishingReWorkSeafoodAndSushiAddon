@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: soybean plant -->
+  <RF_Soybean.label>soybean plant</RF_Soybean.label>
+  <!-- EN: Soybeans play a central role in Japanese cuisine and its seasonings, making it a valuable source of vegetable protein for vegetarians. Soybeans are also used as a raw material for soy sauce. -->
+  <RF_Soybean.description>Soybeans play a central role in Japanese cuisine and its seasonings, making it a valuable source of vegetable protein for vegetarians. Soybeans are also used as a raw material for soy sauce.</RF_Soybean.description>
+  <!-- EN: wasabi plant -->
+  <RF_Wasabi.label>wasabi plant</RF_Wasabi.label>
+  <!-- EN: Wasabi is a cruciferous plant native to Japan. It grows in mountain streams and swamps and blooms white florets in spring. Rhizome and leaves are edible, but they are used as condiment and seasonings because of their strong pungent taste.\nNot grow on less fertile ground. -->
+  <RF_Wasabi.description>Wasabi is a cruciferous plant native to Japan. It grows in mountain streams and swamps and blooms white florets in spring. Rhizome and leaves are edible, but they are used as condiment and seasonings because of their strong pungent taste.
+Not grow on less fertile ground.</RF_Wasabi.description>
+</LanguageData>

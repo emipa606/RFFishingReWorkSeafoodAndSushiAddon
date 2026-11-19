@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: ate fish meuniere -->
+  <RF_AteFishMeuniere.stages.ate_fish_meuniere.label>ate fish meuniere</RF_AteFishMeuniere.stages.ate_fish_meuniere.label>
+  <!-- EN: That fish meuniere was delicious. It nourished my body and my soul. -->
+  <RF_AteFishMeuniere.stages.ate_fish_meuniere.description>That fish meuniere was delicious. It nourished my body and my soul.</RF_AteFishMeuniere.stages.ate_fish_meuniere.description>
+  <!-- EN: ate sushi -->
+  <RF_AteNigiriSushi.stages.ate_sushi.label>ate sushi</RF_AteNigiriSushi.stages.ate_sushi.label>
+  <!-- EN: I ate nigiri sushi. Quite tasty! -->
+  <RF_AteNigiriSushi.stages.ate_sushi.description>I ate nigiri sushi. Quite tasty!</RF_AteNigiriSushi.stages.ate_sushi.description>
+  <!-- EN: ate seafood chili -->
+  <RF_AteSeafoodChili.stages.ate_seafood_chili.label>ate seafood chili</RF_AteSeafoodChili.stages.ate_seafood_chili.label>
+  <!-- EN: I ate seafood chili. Tasty! -->
+  <RF_AteSeafoodChili.stages.ate_seafood_chili.description>I ate seafood chili. Tasty!</RF_AteSeafoodChili.stages.ate_seafood_chili.description>
+  <!-- EN: ate paella -->
+  <RF_AteSeafoodPaella.stages.ate_paella.label>ate paella</RF_AteSeafoodPaella.stages.ate_paella.label>
+  <!-- EN: That paella was very delicious. It nourished my body and my soul. -->
+  <RF_AteSeafoodPaella.stages.ate_paella.description>That paella was very delicious. It nourished my body and my soul.</RF_AteSeafoodPaella.stages.ate_paella.description>
+  <!-- EN: taste soy sauce -->
+  <RF_AteSoySauce.stages.taste_soy_sauce.label>taste soy sauce</RF_AteSoySauce.stages.taste_soy_sauce.label>
+  <!-- EN: I thought it was salty, but the sweetness and umami came in later. -->
+  <RF_AteSoySauce.stages.taste_soy_sauce.description>I thought it was salty, but the sweetness and umami came in later.</RF_AteSoySauce.stages.taste_soy_sauce.description>
+  <!-- EN: ate surf and turf -->
+  <RF_AteSurfAndTurf.stages.ate_surf_and_turf.label>ate surf and turf</RF_AteSurfAndTurf.stages.ate_surf_and_turf.label>
+  <!-- EN: That surf and turf was delicious. very satisfied! -->
+  <RF_AteSurfAndTurf.stages.ate_surf_and_turf.description>That surf and turf was delicious. very satisfied!</RF_AteSurfAndTurf.stages.ate_surf_and_turf.description>
+  <!-- EN: taste wasabi -->
+  <RF_AteWasabi.stages.taste_wasabi.label>taste wasabi</RF_AteWasabi.stages.taste_wasabi.label>
+  <!-- EN: Severe pain in the nose! But becomes a habit! -->
+  <RF_AteWasabi.stages.taste_wasabi.description>Severe pain in the nose! But becomes a habit!</RF_AteWasabi.stages.taste_wasabi.description>
+</LanguageData>

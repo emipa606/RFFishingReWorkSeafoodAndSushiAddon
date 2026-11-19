@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="PlantBase">
+    <defName>RF_Soybean</defName>
+    <label>soybean plant</label>
+    <description>Soybeans play a central role in Japanese cuisine and its seasonings, making it a valuable source of vegetable protein for vegetarians. Soybeans are also used as a raw material for soy sauce.</description>
+    <statBases>
+      <MaxHitPoints>85</MaxHitPoints>
+      <Nutrition>0.18</Nutrition>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Plant/RF_Soybean</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <selectable>true</selectable>
+    <pathCost>14</pathCost>
+    <ingestible />
+    <plant>
+      <dieIfLeafless>true</dieIfLeafless>
+      <maxMeshCount>1</maxMeshCount>
+      <harvestTag>Standard</harvestTag>
+      <harvestedThingDef>RF_RawSoybean</harvestedThingDef>
+      <harvestYield>13</harvestYield>
+      <sowTags>
+        <li>Ground</li>
+        <li>Hydroponic</li>
+      </sowTags>
+      <topWindExposure>0.1</topWindExposure>
+      <growDays>10.5</growDays>
+      <immatureGraphicPath>Things/Plant/RF_Soybean_Immature</immatureGraphicPath>
+      <visualSizeRange>0.6~0.8</visualSizeRange>
+      <wildOrder>2</wildOrder>
+      <purpose>Food</purpose>
+    </plant>
+  </ThingDef>
+  <ThingDef ParentName="PlantBase">
+    <defName>RF_Wasabi</defName>
+    <label>wasabi plant</label>
+    <description>Wasabi is a cruciferous plant native to Japan. It grows in mountain streams and swamps and blooms white florets in spring. Rhizome and leaves are edible, but they are used as condiment and seasonings because of their strong pungent taste.\nNot grow on less fertile ground.</description>
+    <statBases>
+      <MaxHitPoints>35</MaxHitPoints>
+      <Nutrition>0.1</Nutrition>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Plant/RF_Wasabi</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <selectable>true</selectable>
+    <pathCost>14</pathCost>
+    <ingestible />
+    <plant>
+      <fertilityMin>1</fertilityMin>
+      <fertilitySensitivity>1</fertilitySensitivity>
+      <dieIfLeafless>true</dieIfLeafless>
+      <harvestTag>Standard</harvestTag>
+      <maxMeshCount>1</maxMeshCount>
+      <harvestedThingDef>RF_RawWasabi</harvestedThingDef>
+      <harvestYield>5</harvestYield>
+      <harvestWork>200</harvestWork>
+      <sowTags>
+        <li>Ground</li>
+        <li>Hydroponic</li>
+      </sowTags>
+      <sowMinSkill>10</sowMinSkill>
+      <topWindExposure>0.1</topWindExposure>
+      <growDays>11</growDays>
+      <immatureGraphicPath>Things/Plant/RF_Wasabi_Immature</immatureGraphicPath>
+      <visualSizeRange>0.6~0.8</visualSizeRange>
+      <wildOrder>2</wildOrder>
+      <purpose>Food</purpose>
+    </plant>
+  </ThingDef>
+</Defs>

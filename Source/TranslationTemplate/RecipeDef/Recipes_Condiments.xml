@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: make sushi soy sauce x10 -->
+  <RF_MakeSoySauce.label>make sushi soy sauce x10</RF_MakeSoySauce.label>
+  <!-- EN: Make 10 sushi soy sauce. Originally, soy sauce is made by mixing grains such as soybeans, wheat, and rice with salt water, steaming and fermenting them for aging, but here you can make soy sauce immediately, but it takes time to prepare. -->
+  <RF_MakeSoySauce.description>Make 10 sushi soy sauce. Originally, soy sauce is made by mixing grains such as soybeans, wheat, and rice with salt water, steaming and fermenting them for aging, but here you can make soy sauce immediately, but it takes time to prepare.</RF_MakeSoySauce.description>
+  <!-- EN: Preparing sushi soy sauce. -->
+  <RF_MakeSoySauce.jobString>Preparing sushi soy sauce.</RF_MakeSoySauce.jobString>
+  <!-- EN: make sushi soy sauce x40 -->
+  <RF_MakeSoySauceBulk.label>make sushi soy sauce x40</RF_MakeSoySauceBulk.label>
+  <!-- EN: Make 40 sushi soy sauce. Originally, soy sauce is made by mixing grains such as soybeans, wheat, and rice with salt water, steaming and fermenting them for aging, but here you can make soy sauce immediately, but it takes time to prepare. -->
+  <RF_MakeSoySauceBulk.description>Make 40 sushi soy sauce. Originally, soy sauce is made by mixing grains such as soybeans, wheat, and rice with salt water, steaming and fermenting them for aging, but here you can make soy sauce immediately, but it takes time to prepare.</RF_MakeSoySauceBulk.description>
+  <!-- EN: Preparing sushi soy sauce. -->
+  <RF_MakeSoySauceBulk.jobString>Preparing sushi soy sauce.</RF_MakeSoySauceBulk.jobString>
+  <!-- EN: make sushi wasabi paste x5 -->
+  <RF_MakeSushiWasabi.label>make sushi wasabi paste x5</RF_MakeSushiWasabi.label>
+  <!-- EN: Prepare 5 sushi wasabi paste from raw wasabi. -->
+  <RF_MakeSushiWasabi.description>Prepare 5 sushi wasabi paste from raw wasabi.</RF_MakeSushiWasabi.description>
+  <!-- EN: Preparing sushi wasabi paste. -->
+  <RF_MakeSushiWasabi.jobString>Preparing sushi wasabi paste.</RF_MakeSushiWasabi.jobString>
+  <!-- EN: make sushi wasabi paste x20 -->
+  <RF_MakeSushiWasabiBulk.label>make sushi wasabi paste x20</RF_MakeSushiWasabiBulk.label>
+  <!-- EN: Prepare 20 sushi wasabi paste from raw wasabi. -->
+  <RF_MakeSushiWasabiBulk.description>Prepare 20 sushi wasabi paste from raw wasabi.</RF_MakeSushiWasabiBulk.description>
+  <!-- EN: Preparing sushi wasabi paste. -->
+  <RF_MakeSushiWasabiBulk.jobString>Preparing sushi wasabi paste.</RF_MakeSushiWasabiBulk.jobString>
+</LanguageData>

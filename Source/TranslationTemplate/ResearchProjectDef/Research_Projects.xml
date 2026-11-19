@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: sea food recipe -->
+  <RFF_MakeSeafood.label>sea food recipe</RFF_MakeSeafood.label>
+  <!-- EN: Some cooking recipes using caught fish and seafood will be unlocked. -->
+  <RFF_MakeSeafood.description>Some cooking recipes using caught fish and seafood will be unlocked.</RFF_MakeSeafood.description>
+</LanguageData>

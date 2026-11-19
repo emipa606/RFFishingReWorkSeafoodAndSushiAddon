@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: cook seafood chili -->
+  <CookMealSeafoodChili.label>cook seafood chili</CookMealSeafoodChili.label>
+  <!-- EN: Cook fine dishes of seafood meat and vegetables mixed with chili sauce. -->
+  <CookMealSeafoodChili.description>Cook fine dishes of seafood meat and vegetables mixed with chili sauce.</CookMealSeafoodChili.description>
+  <!-- EN: Cooking seafood chili. -->
+  <CookMealSeafoodChili.jobString>Cooking seafood chili.</CookMealSeafoodChili.jobString>
+  <!-- EN: cook seafood chili x4 -->
+  <CookMealSeafoodChiliBulk.label>cook seafood chili x4</CookMealSeafoodChiliBulk.label>
+  <!-- EN: Cook 4 fine dishes of seafood meat and vegetables mixed with chili sauce. -->
+  <CookMealSeafoodChiliBulk.description>Cook 4 fine dishes of seafood meat and vegetables mixed with chili sauce.</CookMealSeafoodChiliBulk.description>
+  <!-- EN: Cooking 4 seafood chili. -->
+  <CookMealSeafoodChiliBulk.jobString>Cooking 4 seafood chili.</CookMealSeafoodChiliBulk.jobString>
+  <!-- EN: cook maguro nigiri sushi -->
+  <CookMealSushiMaguro.label>cook maguro nigiri sushi</CookMealSushiMaguro.label>
+  <!-- EN: Cook nigiri sushi with maguro(tuna) meat. To make nigiri sushi, you need each fish meat, rice, soy sauce, and wasabi. -->
+  <CookMealSushiMaguro.description>Cook nigiri sushi with maguro(tuna) meat. To make nigiri sushi, you need each fish meat, rice, soy sauce, and wasabi.</CookMealSushiMaguro.description>
+  <!-- EN: Preparing nigiri sushi. -->
+  <CookMealSushiMaguro.jobString>Preparing nigiri sushi.</CookMealSushiMaguro.jobString>
+  <!-- EN: cook maguro nigiri sushi x4 -->
+  <CookMealSushiMaguroBulk.label>cook maguro nigiri sushi x4</CookMealSushiMaguroBulk.label>
+  <!-- EN: Cook 4 nigiri sushi with maguro(tuna) meat. To make nigiri sushi, you need each fish meat, rice, soy sauce, and wasabi. -->
+  <CookMealSushiMaguroBulk.description>Cook 4 nigiri sushi with maguro(tuna) meat. To make nigiri sushi, you need each fish meat, rice, soy sauce, and wasabi.</CookMealSushiMaguroBulk.description>
+  <!-- EN: Preparing nigiri sushi. -->
+  <CookMealSushiMaguroBulk.jobString>Preparing nigiri sushi.</CookMealSushiMaguroBulk.jobString>
+  <!-- EN: cook salmon nigiri sushi -->
+  <CookMealSushiSalmon.label>cook salmon nigiri sushi</CookMealSushiSalmon.label>
+  <!-- EN: Cook nigiri sushi with salmon. To make nigiri sushi, you need each fish meat, rice, soy sauce, and wasabi. -->
+  <CookMealSushiSalmon.description>Cook nigiri sushi with salmon. To make nigiri sushi, you need each fish meat, rice, soy sauce, and wasabi.</CookMealSushiSalmon.description>
+  <!-- EN: Preparing nigiri sushi. -->
+  <CookMealSushiSalmon.jobString>Preparing nigiri sushi.</CookMealSushiSalmon.jobString>
+  <!-- EN: cook salmon nigiri sushi x4 -->
+  <CookMealSushiSalmonBulk.label>cook salmon nigiri sushi x4</CookMealSushiSalmonBulk.label>
+  <!-- EN: Cook 4 nigiri sushi with salmon. To make nigiri sushi, you need each fish meat, rice, soy sauce, and wasabi. -->
+  <CookMealSushiSalmonBulk.description>Cook 4 nigiri sushi with salmon. To make nigiri sushi, you need each fish meat, rice, soy sauce, and wasabi.</CookMealSushiSalmonBulk.description>
+  <!-- EN: Preparing nigiri sushi. -->
+  <CookMealSushiSalmonBulk.jobString>Preparing nigiri sushi.</CookMealSushiSalmonBulk.jobString>
+</LanguageData>

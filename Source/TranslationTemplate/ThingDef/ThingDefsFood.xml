@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: seafood chili sauce -->
+  <MealSeafoodChili.label>seafood chili sauce</MealSeafoodChili.label>
+  <!-- EN: Fine dish of chili sauce with seafood and vegetables. -->
+  <MealSeafoodChili.description>Fine dish of chili sauce with seafood and vegetables.</MealSeafoodChili.description>
+  <!-- EN: maguro nigiri -->
+  <MealSushiMaguro.label>maguro nigiri</MealSushiMaguro.label>
+  <!-- EN: Nigiri sushi with tuna. -->
+  <MealSushiMaguro.description>Nigiri sushi with tuna.</MealSushiMaguro.description>
+  <!-- EN: salmon nigiri -->
+  <MealSushiSalmon.label>salmon nigiri</MealSushiSalmon.label>
+  <!-- EN: Nigiri sushi with salmon. -->
+  <MealSushiSalmon.description>Nigiri sushi with salmon.</MealSushiSalmon.description>
+</LanguageData>

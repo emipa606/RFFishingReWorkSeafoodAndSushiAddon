@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: sushi counter table -->
+  <RF_SushiCounter.label>sushi counter table</RF_SushiCounter.label>
+  <!-- EN: A cooking table for preparing Nigiri sushi. Only the culinary master is allowed to stand there.. -->
+  <RF_SushiCounter.description>A cooking table for preparing Nigiri sushi. Only the culinary master is allowed to stand there..</RF_SushiCounter.description>
+</LanguageData>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/MainButtonDef[defName="Achievements"]</xpath>
+    <success>Always</success>
+    <match Class="PatchOperationSequence">
+      <operations>
+        <li Class="PatchOperationConditional">
+          <xpath>/Defs/ThingDef[@Name="Fish"]</xpath>
+          <success>Always</success>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>/Defs</xpath>
+            <value>
+              <AchievementsExpanded.AchievementDef ParentName="Mlie_AchievementParent">
+                <defName>RF_AchivementPaella</defName>
+                <label>Seafood kingdom</label>
+                <description>Cook a total of 50 seafood paella</description>
+                <tracker Class="AchievementsExpanded.ItemCraftTracker">
+                  <def>MealSeafoodPaella</def>
+                  <count>50</count>
+                </tracker>
+                <texPath>Achievements/RF_AchivePaella</texPath>
+                <points>20</points>
+              </AchievementsExpanded.AchievementDef>
+              <AchievementsExpanded.AchievementDef ParentName="Mlie_AchievementParent">
+                <defName>RF_AchievementSushiSquid</defName>
+                <label>Squid sushi Shokunin</label>
+                <description>Prepare a total of 20 meal squid nigiri</description>
+                <tracker Class="AchievementsExpanded.ItemCraftTracker">
+                  <def>MealSushiSquid</def>
+                  <count>20</count>
+                </tracker>
+                <texPath>Achievements/RF_AchieveSushiSquid</texPath>
+                <points>10</points>
+              </AchievementsExpanded.AchievementDef>
+              <AchievementsExpanded.AchievementDef ParentName="Mlie_AchievementParent">
+                <defName>RF_AchievementSushiGunkan</defName>
+                <label>Ikura gunkan Shokunin</label>
+                <description>Prepare a total of 20 meal salmon roe gunkan</description>
+                <tracker Class="AchievementsExpanded.ItemCraftTracker">
+                  <def>MealSushiGunkan</def>
+                  <count>20</count>
+                </tracker>
+                <texPath>Achievements/RF_AchieveSushiGunkan</texPath>
+                <points>10</points>
+              </AchievementsExpanded.AchievementDef>
+              <AchievementsExpanded.AchievementDef ParentName="Mlie_AchievementParent">
+                <defName>RF_AchievementSushiOctopus</defName>
+                <label>Octopus sushi Shokunin</label>
+                <description>Prepare a total of 20 meal octopus nigiri</description>
+                <tracker Class="AchievementsExpanded.ItemCraftTracker">
+                  <def>MealSushiOctopus</def>
+                  <count>20</count>
+                </tracker>
+                <texPath>Achievements/RF_AchieveSushiOctopus</texPath>
+                <points>10</points>
+              </AchievementsExpanded.AchievementDef>
+              <AchievementsExpanded.AchievementDef ParentName="Mlie_AchievementParent">
+                <defName>RF_AchievementSushiShrimp</defName>
+                <label>SShrimp sushi Shokunin</label>
+                <description>Prepare a total of 20 meal shrimp nigiri</description>
+                <tracker Class="AchievementsExpanded.ItemCraftTracker">
+                  <def>MealSushiShrimp</def>
+                  <count>20</count>
+                </tracker>
+                <texPath>Achievements/RF_AchieveSushiShrimp</texPath>
+                <points>10</points>
+              </AchievementsExpanded.AchievementDef>
+              <AchievementsExpanded.AchievementDef ParentName="Mlie_AchievementParent">
+                <defName>RF_AchievementSushiCrab</defName>
+                <label>Crab sushi Shokunin</label>
+                <description>Prepare a total of 20 meal crab nigiri</description>
+                <tracker Class="AchievementsExpanded.ItemCraftTracker">
+                  <def>MealSushiCrab</def>
+                  <count>20</count>
+                </tracker>
+                <texPath>Achievements/RF_AchieveSushiCrab</texPath>
+                <points>10</points>
+              </AchievementsExpanded.AchievementDef>
+              <AchievementsExpanded.AchievementDef ParentName="Mlie_AchievementParent">
+                <defName>RF_AchievementSushiShellfish</defName>
+                <label>Shellfish sushi Shokunin</label>
+                <description>Prepare a total of 20 meal shellfish nigiri</description>
+                <tracker Class="AchievementsExpanded.ItemCraftTracker">
+                  <def>MealSushiShellfish</def>
+                  <count>20</count>
+                </tracker>
+                <texPath>Achievements/RF_AchieveSushiShellfish</texPath>
+                <points>10</points>
+              </AchievementsExpanded.AchievementDef>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs</xpath>
+          <value>
+            <AchievementsExpanded.AchievementDef ParentName="Mlie_AchievementParent">
+              <defName>RF_AchievementSushiCounter</defName>
+              <label>Sushi restaurant open</label>
+              <description>Construct a sushi counter table</description>
+              <tracker Class="AchievementsExpanded.BuildingTracker">
+                <def>RF_SushiCounter</def>
+                <count>1</count>
+              </tracker>
+              <texPath>Achievements/RF_AchiveSushiCounter</texPath>
+              <points>10</points>
+            </AchievementsExpanded.AchievementDef>
+            <AchievementsExpanded.AchievementDef ParentName="Mlie_AchievementParent">
+              <defName>RF_AchievementSushiSalmon</defName>
+              <label>Salmon sushi Shokunin</label>
+              <description>Prepare a total of 20 meal salmon nigiri</description>
+              <tracker Class="AchievementsExpanded.ItemCraftTracker">
+                <def>MealSushiSalmon</def>
+                <count>20</count>
+              </tracker>
+              <texPath>Achievements/RF_AchieveSushiSalmon</texPath>
+              <points>10</points>
+            </AchievementsExpanded.AchievementDef>
+            <AchievementsExpanded.AchievementDef ParentName="Mlie_AchievementParent">
+              <defName>RF_AchievementSushiMaguro</defName>
+              <label>Maguro sushi Shokunin</label>
+              <description>Prepare a total of 20 meal maguro nigiri</description>
+              <tracker Class="AchievementsExpanded.ItemCraftTracker">
+                <def>MealSushiMaguro</def>
+                <count>20</count>
+              </tracker>
+              <texPath>Achievements/RF_AchieveSushiMaguro</texPath>
+              <points>10</points>
+            </AchievementsExpanded.AchievementDef>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="RoughPlantBase">
+    <defName>RF_SoySauce</defName>
+    <label>sushi soy sauce</label>
+    <description>It is a soy sauce made by boiling soy sauce, water, sake, mirin, dashi, etc., and is used to soften the strong aroma and saltiness of soy sauce and make the best use of the taste of the ingredients.</description>
+    <graphicData>
+      <texPath>Things/Items/Condiments/RF_Soysauce</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>8</MarketValue>
+      <Nutrition>0.05</Nutrition>
+      <Flammability>1</Flammability>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>120</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+    <thingCategories>
+      <li>Foods</li>
+    </thingCategories>
+    <ingestible>
+      <preferability>NeverForNutrition</preferability>
+      <specialThoughtAsIngredient>RF_AteSoySauce</specialThoughtAsIngredient>
+    </ingestible>
+  </ThingDef>
+  <ThingDef ParentName="RoughPlantBase">
+    <defName>RF_WasabiPaste</defName>
+    <label>sushi wasabi paste</label>
+    <description>A paste made by grinding wasabi rhizomes, which has a strong pungent flavor and is used as a condiment or seasoning. Wasabi used for sushi has deodorant and antibacterial effects against food poisoning.</description>
+    <graphicData>
+      <texPath>Things/Items/Condiments/RF_Wasabi</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>4</MarketValue>
+      <Nutrition>0.05</Nutrition>
+      <Flammability>1</Flammability>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>3</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+    <thingCategories>
+      <li>Foods</li>
+    </thingCategories>
+    <ingestible>
+      <preferability>NeverForNutrition</preferability>
+      <specialThoughtAsIngredient>RF_AteWasabi</specialThoughtAsIngredient>
+    </ingestible>
+  </ThingDef>
+</Defs>

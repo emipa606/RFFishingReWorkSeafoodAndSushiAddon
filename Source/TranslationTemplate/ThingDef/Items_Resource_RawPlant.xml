@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: soybeans -->
+  <RF_RawSoybean.label>soybeans</RF_RawSoybean.label>
+  <!-- EN: Raw soybean. Ingredients for sushi soy sauce. It is also as an ingredient for cooking. -->
+  <RF_RawSoybean.description>Raw soybean. Ingredients for sushi soy sauce. It is also as an ingredient for cooking.</RF_RawSoybean.description>
+  <!-- EN: wasabi -->
+  <RF_RawWasabi.label>wasabi</RF_RawWasabi.label>
+  <!-- EN: It is a raw material for sushi wasabi paste. It's not recommended to eat it as it is. -->
+  <RF_RawWasabi.description>It is a raw material for sushi wasabi paste. It's not recommended to eat it as it is.</RF_RawWasabi.description>
+</LanguageData>
